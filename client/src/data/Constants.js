@@ -1,0 +1,81 @@
+export const categories = [
+  {
+    name: "ארוחות בוקר",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+  },
+  {
+    name: "מנות עיקריות",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+  },
+  { name: "סלטים", image: require("./istockphoto-1190330112-612x612.jpg") },
+  { name: "מרקים", image: require("./istockphoto-1190330112-612x612.jpg") },
+  { name: "קינוחים", image: require("./istockphoto-1190330112-612x612.jpg") },
+  { name: "מאפים", image: require("./istockphoto-1190330112-612x612.jpg") },
+];
+
+export const recipes = [
+  {
+    name: "פסטה קרבונרה",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+    time: "30 דק'",
+    level: "קל",
+    description: "פסטה טעימה וקלה להכנה",
+    link: "#",
+  },
+  {
+    name: "מרק עגבניות",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+    time: "40 דק'",
+    level: "בינוני",
+    description: "מרק חם לימים הקרים",
+    link: "#",
+  },
+  {
+    name: "עוגת שוקולד",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+    time: "50 דק'",
+    level: "קשה",
+    description: "עוגת שוקולד עשירה",
+    link: "#",
+  },
+  {
+    name: "סלט קפרזה",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+    time: "15 דק'",
+    level: "קל",
+    description: "סלט טרי ומרענן",
+    link: "#",
+  },
+  {
+    name: "פיצה ביתית",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+    time: "60 דק'",
+    level: "בינוני",
+    description: "פיצה טעימה להכנה ביתית",
+    link: "#",
+  },
+  {
+    name: "שקשוקה חריפה",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+    time: "25 דק'",
+    level: "קל",
+    description: "שקשוקה מושלמת עם חריף",
+    link: "#",
+  },
+  {
+    name: "עוגיות חמאה",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+    time: "35 דק'",
+    level: "קל",
+    description: "עוגיות קלאסיות עם חמאה",
+    link: "#",
+  },
+  {
+    name: "המבורגר ביתי",
+    image: require("./istockphoto-1190330112-612x612.jpg"),
+    time: "45 דק'",
+    level: "בינוני",
+    description: "המבורגר עסיסי בהכנה ביתית",
+    link: "#",
+  },
+];
