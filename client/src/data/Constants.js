@@ -1,14 +1,9 @@
 export const categories = [
-  {
-    name: "ארוחות בוקר",
-    image: require("./istockphoto-1190330112-612x612.jpg"),
-  },
+  { name: "סלטים", image: require("./istockphoto-1190330112-612x612.jpg") },
   {
     name: "מנות עיקריות",
     image: require("./istockphoto-1190330112-612x612.jpg"),
   },
-  { name: "סלטים", image: require("./istockphoto-1190330112-612x612.jpg") },
-  { name: "מרקים", image: require("./istockphoto-1190330112-612x612.jpg") },
   { name: "קינוחים", image: require("./istockphoto-1190330112-612x612.jpg") },
   { name: "מאפים", image: require("./istockphoto-1190330112-612x612.jpg") },
 ];
@@ -17,7 +12,7 @@ export const recipes = [
   {
     name: "פסטה קרבונרה",
     image: require("./istockphoto-1190330112-612x612.jpg"),
-    time: "30 דק'",
+    time: "30",
     level: "קל",
     description: "פסטה טעימה וקלה להכנה",
     link: "#",
@@ -25,7 +20,7 @@ export const recipes = [
   {
     name: "מרק עגבניות",
     image: require("./istockphoto-1190330112-612x612.jpg"),
-    time: "40 דק'",
+    time: "40",
     level: "בינוני",
     description: "מרק חם לימים הקרים",
     link: "#",
@@ -33,7 +28,7 @@ export const recipes = [
   {
     name: "עוגת שוקולד",
     image: require("./istockphoto-1190330112-612x612.jpg"),
-    time: "50 דק'",
+    time: "50",
     level: "קשה",
     description: "עוגת שוקולד עשירה",
     link: "#",
@@ -41,7 +36,7 @@ export const recipes = [
   {
     name: "סלט קפרזה",
     image: require("./istockphoto-1190330112-612x612.jpg"),
-    time: "15 דק'",
+    time: "15",
     level: "קל",
     description: "סלט טרי ומרענן",
     link: "#",
@@ -49,7 +44,7 @@ export const recipes = [
   {
     name: "פיצה ביתית",
     image: require("./istockphoto-1190330112-612x612.jpg"),
-    time: "60 דק'",
+    time: "60",
     level: "בינוני",
     description: "פיצה טעימה להכנה ביתית",
     link: "#",
@@ -57,7 +52,7 @@ export const recipes = [
   {
     name: "שקשוקה חריפה",
     image: require("./istockphoto-1190330112-612x612.jpg"),
-    time: "25 דק'",
+    time: "25",
     level: "קל",
     description: "שקשוקה מושלמת עם חריף",
     link: "#",
@@ -65,7 +60,7 @@ export const recipes = [
   {
     name: "עוגיות חמאה",
     image: require("./istockphoto-1190330112-612x612.jpg"),
-    time: "35 דק'",
+    time: "35",
     level: "קל",
     description: "עוגיות קלאסיות עם חמאה",
     link: "#",
@@ -73,7 +68,7 @@ export const recipes = [
   {
     name: "המבורגר ביתי",
     image: require("./istockphoto-1190330112-612x612.jpg"),
-    time: "45 דק'",
+    time: "45",
     level: "בינוני",
     description: "המבורגר עסיסי בהכנה ביתית",
     link: "#",

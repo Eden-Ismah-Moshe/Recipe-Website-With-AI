@@ -9,12 +9,11 @@ const RecipeCard = ({ recipe }) => {
         className="w-full h-40 object-cover rounded-md mb-4"
       />
       <h3 className="text-2xl font-bold text-gray-800">{recipe.name}</h3>
-      <p className="text-md text-gray-600">
-        ⏳ {recipe.time} | ⭐ {recipe.level}
-      </p>
+      <p className="text-md text-gray-600"> זמן הכנה: {recipe.time} דקות </p>
+      <p className="text-md text-gray-600">רמת קושי: {recipe.level}</p>
       <p className="text-md mt-3 text-gray-700">{recipe.description}</p>
       <a
-        href={recipe.link}
+        href={`/recipe/${recipe.name}`}
         className="text-blue-600 font-semibold mt-3 inline-block hover:underline"
       >
         למתכון המלא
