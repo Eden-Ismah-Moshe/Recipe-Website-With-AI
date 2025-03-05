@@ -8,19 +8,19 @@ import { recipes as tempRecipes } from "../../data/Constants.js";
 function RecipesPage() {
   const { category } = useParams();
   const [recipes, setRecipes] = useState(tempRecipes);
-
-  // Get recipes from server
-  // useEffect(() => {
-  //     const fetchRecipes = async () => {
-  //         try {
-  //             const response = await axios.get(`/recipes?category=${category}`);
-  //             setRecipes(response.data);
-  //         } catch (error) {
-  //             console.error("Error fetching recipes:", error);
-  //         }
-  //     };
-  //     fetchRecipes();
-  // }, [category]);
+  /*
+  useEffect(() => {
+       const fetchRecipes = async () => {
+           try {
+               const response = await axios.get(`http://localhost:5000/recipes?category=${category}`);
+               setRecipes(response.data);
+           } catch (error) {
+               console.error("Error fetching recipes:", error);
+           }
+       };
+       fetchRecipes();
+   }, [category]);
+*/
 
   return (
     <>
